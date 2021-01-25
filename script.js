@@ -32,7 +32,7 @@ while (true) {
   console.log(randomNumber);
   if (randomNumber != 5) {
     counter++;
-    console.log(`randomNumber !== 5`);
+    console.log(`${randomNumber} !== 5`);
   } else {
     counter++;
     console.log(
